@@ -1,5 +1,7 @@
 {
   "name": "DuckToDo",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
