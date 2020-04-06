@@ -12,14 +12,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 
+// Firebase informations
 export const firebaseConfig = {
-  apiKey: 'AIzaSyD0GOr4AturWXxxzWQm6Ma1jSosCFZuJu8',
-  authDomain: 'ducktodo-ionic.firebaseapp.com',
-  databaseURL: 'https://ducktodo-ionic.firebaseio.com',
-  projectId: 'ducktodo-ionic',
-  storageBucket: 'ducktodo-ionic.appspot.com',
-  messagingSenderId: '24615641978',
-  appId: '1:24615641978:web:d394167c12fe675873ecc3'
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: ''
 };
 
 @NgModule({
